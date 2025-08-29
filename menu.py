@@ -14,7 +14,13 @@ while opcion != 4:
     if opcion == "1":
         print("Has escogido la operación: Suma")
     elif opcion == "2":
-        print("Has escogido la operación: Resta")
+        opcion1 = int (input ("Digite el primer Numero: "))
+        opcion2 = int (input ("Digite el segudo Numero: "))
+
+        resultado  = (opcion1 - opcion2)
+
+        print ("el resultado de la resta es: ",resultado)   
+    
     elif opcion == "3":
         print("Has escogido la operación: Multiplicacion")
     elif opcion == "4":
