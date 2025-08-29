@@ -25,6 +25,11 @@ while opcion != 4:
         print("Has escogido la operación: Multiplicacion")
     elif opcion == "4":
         print("Has escogido la operación: Division")
+        num1 = float(input("Ingresa el primer número: "))
+        num2 = float(input("Ingresa el segundo número: "))
+    
+        resultado = num1 / num2
+        print("El resultado de la división es: ", resultado)
     
     else:
         print("Opción no válida. Intenta de nuevo.")
