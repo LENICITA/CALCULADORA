@@ -13,13 +13,12 @@ while opcion != 4:
 
     if opcion == "1":
         print("Has escogido la operación: Suma")
-        n1 = float(input("Digite el primer Numero: "))
-        n2 = float(input("Digite el segundo Numero: "))
+        n1 = float (input ("Digite el primer Numero: "))
+        n2 = float (input ("Digite el segudo Numero: "))
 
         resultado  = (n1 + n2)
 
-        print ("el resultado de la suma es: ",resultado)
-
+        print ("el resultado de la suma es: ",resultado)   
     elif opcion == "2":
         print("Has escogido la operación: Resta")
     elif opcion == "3":
